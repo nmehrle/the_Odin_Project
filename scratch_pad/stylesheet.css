@@ -4,3 +4,19 @@
 	background-color: #f60;
 	border-radius: 6px;
 }
+
+.row {
+}
+
+#row2 {
+	background-color: #f60;
+	border-radius: 600px;
+}
+
+.pixel {
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	border-radius: 25px;
+	background-color: #060;
+}

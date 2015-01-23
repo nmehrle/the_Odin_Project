@@ -1,11 +1,13 @@
 $(document).ready(function() {
-	$('#gridWrapper').mouseenter(function() {
-		$('#gridWrapper').animate({height: 400},200);
-		$('#gridWrapper').animate({backgroundColor: '#0f0'},'slow');
-	}).mouseleave(function() {
-		$('#gridWrapper').animate({height: '300px'});
-	});
+	
+	var $body=$('body');
 
-	$('body').prepend('<p> Hello World </p>');
+    for(var i =0; i<5; i++) {
+    	var thisId = 'row'+i;
+    	$('body').append('<div id='+thisId+' class="row"></div>');
+    	for(var j=0; j<5; j++){
+    		$('#'+thisId).append('<div class="pixel"> </div>');
+   		}
+    }
 
 });
