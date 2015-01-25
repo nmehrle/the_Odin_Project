@@ -1,22 +1,36 @@
+#header {
+	height: 200px;
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #1166ff;
+	border-radius: 20px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+#words {
+	margin: 20px auto;
+	display: inline-block;
+}
+
+button {
+	margin: 0px auto;
+}
+
 #gridWrapper {
+	
+	margin: 0 auto;
 	width: 600px;
-	height: 300px;
-	background-color: #f60;
-	border-radius: 6px;
+	height: 600px;
+	background-color: blue;
 }
 
 .row {
-}
-
-#row2 {
-	background-color: #f60;
-	border-radius: 600px;
+	margin: -4px auto;
 }
 
 .pixel {
 	display: inline-block;
-	height: 50px;
-	width: 50px;
-	border-radius: 25px;
-	background-color: #060;
+	background-color: #f60;
 }
