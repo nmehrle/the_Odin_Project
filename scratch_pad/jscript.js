@@ -1,7 +1,27 @@
+var bordersOn = true;
+
 $(document).ready(function() {
   makeGrid(20);
   activateBlack();
 });
+
+function toggleBorders() {
+  var $pixel = $('.pixel');
+  if(bordersOn) {
+    $('#buttonWords').text("Turn Borders On ");
+    $pixel.css("border-width",0);
+    var curWid = $pixel.width();
+    $pixel.width(curWid+2);
+    bordersOn=false;
+  }
+  else {
+    $('#buttonWords').text("Turn Borders Off");
+    $pixel.css("border-width",1);
+    var curWid = $pixel.width();
+    $pixel.width(curWid-2);
+    bordersOn=true;
+  }
+};
 
 function makeGrid(size) {
   reset();

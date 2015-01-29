@@ -7,16 +7,29 @@ body {
 	width: 700px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #1166ff;
 	border-radius: 20px;
 	margin-bottom: 5px;
 	text-align: center;
+	background-color: #354b5e;
 }
 
 #words {
 	margin: 10px auto;
 	display: inline-block;
+	color: #eee;
 }
+
+#buttons {
+	margin-bottom: 15px;
+}
+
+#borderButton {
+	height: 30px;
+	width: 120px;
+	border-radius: 6px;
+	background-color: #fff;
+}
+
 p {
 	margin-bottom: 5px;
 }
