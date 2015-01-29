@@ -14,8 +14,14 @@ body {
 }
 
 #words {
-	margin: 20px auto;
+	margin: 10px auto;
 	display: inline-block;
+}
+p {
+	margin-bottom: 5px;
+}
+h1 {
+	margin-bottom: 0px;
 }
 
 button {
