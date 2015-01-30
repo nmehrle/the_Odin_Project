@@ -63,6 +63,10 @@ function resize(col) {
 function reset() {
   $('.pixel').remove();
   $('.row').remove();
+  if(!bordersOn) {
+    bordersOn=true;
+    $('#buttonWords').text("Turn Borders Off");
+  }
 };
 
 function activateBlack() {
