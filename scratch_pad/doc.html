@@ -12,29 +12,41 @@
   </head>
 
   </body>
-    <div id='header'>
-      <div id='words'>
-        <h1> Draw Pad </h1>
-        <p> Select a color option below to make a new grid. </p>
+  <div id='menu'>
+      <h3> My Menu!!!!11! </h3>
+      <a href ="#"> Link 1 </a>
+      <a href ="#"> Link 2 </a>
+      <a href="#">  Link 3 </a>
+      <a href="#">  Link 4 </a>
+      <a href="#">  Link 5 </a>
+    </div>  
+
+    <div id ='all'>
+      <div id='header'>
+        <div id='words'>
+          <h1> Draw Pad </h1>
+          <p> Select a color option below to make a new grid. </p>
 
 
-      </div>
-      <div id="buttons">
+        </div>
+        <div id="buttons">
         
-        <button onclick="resize(1)"> Black </button>
-        <button onclick="resize(2)"> Random </button>
-        <button onclick="resize(3)"> 16 Shades of Grey </button>
-        <button onclick="resize(4)"> Trail </button>
+          <button onclick="resize(1)"> Black </button>
+          <button onclick="resize(2)"> Random </button>
+          <button onclick="resize(3)"> 16 Shades of Grey </button>
+          <button onclick="resize(4)"> Trail </button>
+
+        </div>
+
+        <div><button id="borderButton" onclick="toggleBorders()"> <span id='buttonWords'> Turn Borders Off<span></button>
+        <button id="borderButton" onclick="menu()"> <span id='buttonWords'> Menu<span></button></div>
 
       </div>
 
-      <div><button id="borderButton" onclick="toggleBorders()"> <span id='buttonWords'> Turn Borders Off<span></button></div>
+      <div id="gridWrapper"></div>
 
-    </div>
-
-
-    <div id="gridWrapper"></div>
-  		
+    </div>	
+    
   </body>
 
 </html>

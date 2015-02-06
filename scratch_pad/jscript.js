@@ -1,4 +1,5 @@
 var bordersOn = true;
+var menuOn=false;
 
 $(document).ready(function() {
   makeGrid(20);
@@ -113,5 +114,20 @@ function activateTrail() {
     $(this).css('background-color','#000');
   },function() {
     $(this).animate({backgroundColor:"#fff"},800);
-  });
+  }); 
+};
+
+function menu() {
+  if (menuOn) {
+    $('#all').animate({left:"0"});
+    $('#menu').animate({left:"-240px"});
+    $('#all').css('margin-left','0px');
+    menuOn=false;
+  }
+  else {
+    $('#all').css('margin-left','5px');
+    $('#all').animate({left:"240px"});
+    $('#menu').animate({left:0});
+    menuOn=true;
+  }
 };

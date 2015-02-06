@@ -57,3 +57,27 @@ button {
 	background-color: #fff;
 	border: 1px solid #888;
 }
+
+#menu {
+	width: 240px;
+	height: 100%;
+	background-color: #47a3da;
+	position: fixed;
+	top: 0;
+	left:-240px;
+}
+
+#menu h3 {
+	padding-left: 1em;
+}
+
+#menu a {
+	display: block;
+	text-decoration: none;
+	border-bottom: 1px solid #222;
+	background-color: #afdefa;
+	padding: 1em;
+}
+#all {
+	position: fixed;
+}
